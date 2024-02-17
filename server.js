@@ -24,7 +24,7 @@ const connect = async () => {
   }
 };
 
-app.use(cors({ origin: "https://65ce5c5281086c2453b0ca1b--tubular-gumdrop-199ec5.netlify.app", credentials: true }));
+app.use(cors({ origin: "https://tubular-gumdrop-199ec5.netlify.app/", credentials: true }));
 app.use(express.json());
 app.use(cookieParser());
 
